@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tandoori Nights 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'High Tower Text', 'Aladin', serif;
+      background-color: #0d0d0d;
+      color: white;
+    }
+    .hero {
+      position: relative;
+      text-align: center;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('file-RRSpFV6T2FbRPSwdZ1nBDB') center center/cover no-repeat;
+      opacity: 0.25;
+      animation: fadeImages 10s infinite alternate;
+      z-index: 0;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('file-MwaXDq66Jg6pVzmCsmTKiR') center center/cover no-repeat;
+      opacity: 0.25;
+      animation: fadeImages 10s infinite alternate-reverse;
+      z-index: 0;
+    }
+    @keyframes fadeImages {
+      0% { opacity: 0.25; }
+      100% { opacity: 0.65; }
+    }
+    .hero * {
+      position: relative;
+      z-index: 1;
+    }
+    .hero img {
+      width: 300px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+    .hero h1 {
+      font-size: 4rem;
+      color: #ff9900;
+      text-shadow: 0 0 15px #ff4500;
+    }
+    .hero h3 {
+      font-size: 1.5rem;
+      color: #ffffff;
+      margin-top: 0.5rem;
+    }
+    .section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #ffcc66;
+      border-bottom: 2px solid #ff4500;
+      padding-bottom: 0.5rem;
+      font-size: 2rem;
+    }
+    .countdown {
+      font-size: 2rem;
+      color: #ff6347;
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      background: #111;
+      color: #bbb;
+    }
+    .footer a {
+      color: #ffcc66;
+      text-decoration: none;
+      margin-left: 10px;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <img src="file-9hVeoqnK44EF4PAi84TrGU" alt="Tandoori Nights Logo">
+    <h1>Tandoori Nights 2025</h1>
+    <h3>Central India's Biggest Food Festival</h3>
+  </div>
+
+  <div class="section" id="about">
+    <h2>About the Event</h2>
+    <p><strong>Tandoori Nights 2025</strong> is Central India's biggest and most vibrant food festival, held at <strong>Tirpude College Campus, Civil Lines, Nagpur</strong>. This year, we bring you the colorful and delicious world of <strong>Indian street food</strong> — from spicy chaats to sizzling kebabs and sweet treats that will light up your taste buds.</p>
+    <p>The event will run for <strong>6 days this December</strong>, offering a flavorful journey for food lovers. Entry to the festival is <strong>free</strong>, and food can be purchased using special event <strong>coupon booklets</strong> available at the venue.</p>
+  </div>
+
+  <div class="section" id="schedule">
+    <h2>Schedule Highlights</h2>
+    <ul>
+      <li>🔥 Live Tandoor Cooking Shows</li>
+      <li>🎤 Musical Performances</li>
+      <li>🍢 Gourmet Food Stalls</li>
+      <li>🎪 Cultural Activities & Games</li>
+    </ul>
+  </div>
+
+  <div class="section" id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="file-RRSpFV6T2FbRPSwdZ1nBDB" alt="Fire Breathing Show 1">
+      <img src="file-MwaXDq66Jg6pVzmCsmTKiR" alt="Fire Breathing Show 2">
+    </div>
+    <p style="text-align: center; color: #ccc; margin-top: 1rem;">View full gallery on <a href="https://drive.google.com/drive/folders/139ZxSQeQ93Bme6-3iS-sDxwUFVaxM_W6" target="_blank" style="color: #ffcc66;">Google Drive</a></p>
+  </div>
+
+  <div class="section" id="sponsors">
+    <h2>Our Sponsors</h2>
+    <p>Sponsor details coming soon...</p>
+  </div>
+
+  <div class="section" id="rsvp">
+    <h2>RSVP / Tickets</h2>
+    <p>Entry is completely free! To enjoy the food, simply purchase coupon booklets available at the venue.</p>
+  </div>
+
+  <div class="section countdown" id="countdown">
+    <p>Coming this December... 🔥</p>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2025 Tandoori Nights. All rights reserved.
+      <a href="https://www.instagram.com/tandoorii_nights?igsh=ejNsZHpsODA1NDl1" target="_blank">📷 Follow us on Instagram</a>
+    </p>
+  </div>
+</body>
+</html>
